@@ -1,0 +1,580 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Lexend+Deca&family=Lilita+One&family=Montserrat:wght@500&family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --blue: #7743DB;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right, white , #c0a6cf);
+    overflow-x: hidden;
+}
+.container{
+    margin: 0%;
+    padding: 2rem 2rem;
+    
+    
+}
+nav{
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    
+    
+}
+nav h2{
+    font-size: 30px;
+    
+    font-family: Lilita One;
+}
+
+.bra{
+    color: var(--blue);
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+    
+    
+}
+
+nav ul li button{
+    padding: 0.70rem 1rem;
+    border: none;
+    border-radius: 18px;
+    background-color: var(--blue);
+    color: #F7EFE5;
+    font-family: Montserrat;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--blue);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 7px 7px;
+    font-family: Montserrat;
+}
+
+nav ul li a:hover{
+   background-color: var(--blue);
+   color: #F7EFE5;   
+}
+.content{
+width: 95%;
+display: flex;
+
+align-items: center;
+
+margin-bottom: 5%;
+
+}
+.head-container{
+    padding: 2rem 0rem;
+    margin: 4rem 3rem;
+    
+}
+.head-container h1{
+    line-height: 5rem;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Lilita One;
+}
+.head-container p{
+    font-size: 18px;
+    font-family: Montserrat;
+    margin: 1% 0%;
+    color: rgb(58, 57, 57);
+
+}
+
+.head-container button{
+    padding: 1rem 1rem;
+    margin-top: 4%;
+    border: none;
+    border-radius: 12px;
+     background-color: var(--blue);
+     color: #F7EFE5;
+     font-size: 14;
+     font-family: Montserrat;
+     cursor: pointer;
+     
+}
+
+.head-container button:hover{
+    background-color: #4d08ce;
+    transform: scale(0.92);
+}
+
+.image{
+    width: 50%;
+    padding-left: 20%;
+}
+
+.container-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 4rem 0rem;
+    background-image: linear-gradient(to right, #c0a6cf  85%, white );
+
+}
+
+.container-1 .first{
+    padding: 0rem 3rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container .second{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.second h2{
+    font-family: Lilita One;
+    color: var(--blue);
+}
+.second p{
+    font-family: Montserrat;
+    color: rgb(58, 57, 57);
+}
+
+.container-2{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding: 2rem 2rem;
+    align-items: center;
+    
+}
+.container-2 .image-2{
+    width: 50%;
+    display: flex;
+    padding-left: 10%;
+}
+.content-1{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ padding-left: 10%;
+}
+
+.content-1 h1{
+    font-family: Lilita One;
+    font-size: 40px;
+    line-height: 3.5rem;
+    margin-bottom: 1%;
+}
+
+.content-1 p{
+    font-family: Montserrat;
+    margin-bottom: 4%;
+    color: rgb(58, 57, 57);
+    
+
+}
+.container-2 .you{
+    display: flex;
+    gap: 10rem;
+    font-weight: 700;
+    margin-bottom: 6%;
+    
+}
+.container-2 .me{
+display: flex;
+align-items: center;
+gap: 0.50rem;
+
+
+}
+.container-2 .okay{
+    display: flex;
+    gap: 10rem;
+    font-weight: 700;
+    margin-top: 7%;
+    
+}
+.container-2 .eye{
+    display: flex;
+    align-items: center;
+    gap: 0.50rem;
+}
+
+.content-1 button{
+    width: 25%;
+    padding: 0.85rem ;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--blue);
+    color: #F7EFE5;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin: 5% 0%;
+    cursor: pointer;
+}
+
+.content-1 button:hover{
+    background-color: #4d08ce;
+    transform: scale(0.92);
+}
+
+.nothing{
+    width: 100%;
+    padding: 3rem;
+    background-image: linear-gradient(to right, white , #c0a6cf);
+}
+
+@media screen and (max-width: 500px){
+    
+    
+    nav ul li {
+        display: none;
+        
+        
+    }
+    nav{
+        justify-content: center;
+    }
+
+    nav h2{
+        font-size: 30px;
+        font-family: Lilita One;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .head-container{
+        padding: 1rem 0rem;
+        margin: 0rem 0rem;
+        
+    }
+    .head-container h1{
+        line-height: 4rem;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Lilita One;
+    }
+    .head-container p{
+        font-size: 16px;
+        font-family: Montserrat;
+        margin: 1% 0%;
+        color: rgb(58, 57, 57);
+    
+    }
+
+    .head-container button{
+        padding: 0.70rem 0.70rem;
+        margin-top: 4%;
+        border: none;
+        border-radius: 12px;
+         background-color: var(--blue);
+         color: #F7EFE5;
+         font-size: 10;
+         font-family: Montserrat;
+         
+         
+    }
+
+    .image{
+        width: 25%;
+        padding-right: 100%;
+        
+    }
+
+    .container-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 3rem 0rem;
+        background-image: linear-gradient(to right, #c0a6cf  85%, white );
+    
+    }
+    
+    .container-1 .first{
+        padding: 1rem 3rem;
+        gap: 1rem;
+        display: flex;
+        
+        align-items: center;
+        
+    }
+    
+    .container .second{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .second h2{
+        font-family: Lilita One;
+        color: var(--blue);
+        
+    }
+    .second p{
+        font-family: Montserrat;
+        color: rgb(58, 57, 57);
+        
+    }
+
+    .container-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+        padding: 2rem 1rem;
+        align-items: center;
+        
+    }
+    .container-2 .image-2{
+        display: none;
+    }
+    .content-1{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     margin-left: -12%;
+    }
+     
+    .content-1 h1{
+        font-family: Lilita One;
+        font-size: 30px;
+        line-height: 3rem;
+        margin-bottom: 1%;
+    }
+    
+    .content-1 p{
+        font-family: Montserrat;
+        margin-bottom: 5%;
+        color: rgb(58, 57, 57);
+        font-size: 13px;
+        
+    
+    }
+    .container-2 .you{
+        display: flex;
+        gap: 5rem;
+        font-weight: 700;
+        margin-bottom: 10%;
+        
+    }
+    .container-2 .me{
+    display: flex;
+    align-items: center;
+    gap: 0.50rem;
+    }
+    .container-2 .okay{
+        display: flex;
+        gap: 5rem;
+        font-weight: 700;
+        margin-top: 10%;
+        
+    }
+    .container-2 .eye{
+        display: flex;
+        align-items: center;
+        gap: 0.50rem;
+    }
+    
+    .content-1 button{
+        width: 25%;
+        padding: 0.80rem;
+        border: none;
+        border-radius: 20px;
+        background-color: var(--blue);
+        color: #F7EFE5;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 8% 
+
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+
+
+    nav h2{
+        font-size: 30px;
+        font-family: Lilita One;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .head-container{
+        padding: 0rem 0rem;
+        margin: 0rem 0rem;
+        
+    }
+    .head-container h1{
+        line-height: 3rem;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Lilita One;
+    }
+    .head-container p{
+        font-size: 15px;
+        font-family: Montserrat;
+        margin: 1% 0%;
+        color: rgb(58, 57, 57);
+    
+    }
+
+    .head-container button{
+        padding: 0.70rem 0.70rem;
+        margin-top: 4%;
+        border: none;
+        border-radius: 12px;
+         background-color: var(--blue);
+         color: #F7EFE5;
+         font-size: 10;
+         font-family: Montserrat;
+         
+         
+    }
+
+    .image{
+        width: 25%;
+        padding-right: 120%;
+        margin-bottom: -10%;
+    }
+
+    .container-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 2rem 0rem;
+        background-image: linear-gradient(to right, #c0a6cf  85%, white );
+    
+    }
+    
+    .container-1 .first{
+        padding: 1rem 1rem;
+        gap: 1rem;
+        display: flex;
+        
+        align-items: center;
+        
+    }
+    
+    .container .second{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .second h2{
+        font-family: Lilita One;
+        color: var(--blue);
+        font-size: 20px;
+        
+    }
+    .second p{
+        font-family: Montserrat;
+        color: rgb(58, 57, 57);
+        font-size: 13px;
+    }
+
+    .container-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+        padding: 1rem 1rem;
+        align-items: center;
+        
+    }
+    .container-2 .image-2{
+        display: none;
+    }
+    .content-1{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     margin-left: -15%;
+    }
+     
+    .content-1 h1{
+        font-family: Lilita One;
+        font-size: 27px;
+        line-height: 2.5rem;
+        margin-bottom: 2%;
+    }
+    
+    .content-1 p{
+        font-family: Montserrat;
+        margin-bottom: 8%;
+        color: rgb(58, 57, 57);
+        font-size: 10px;
+        
+    
+    }
+    .container-2 .you{
+        display: flex;
+        gap: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10%;
+        
+    }
+    .container-2 .me{
+    display: flex;
+    align-items: center;
+    gap: 0.50rem;
+    }
+    .container-2 .okay{
+        display: flex;
+        gap: 2.5rem;
+        font-weight: 700;
+        margin-top: 10%;
+        
+    }
+    .container-2 .eye{
+        display: flex;
+        align-items: center;
+        gap: 0.50rem;
+    }
+    i{
+      font-size: 10px;
+    }
+    .content-1 button{
+        width: 35%;
+        padding: 0.80rem;
+        border: none;
+        border-radius: 20px;
+        background-color: var(--blue);
+        color: #F7EFE5;
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 8% 
+
+    }
+    
+}
+
+    
